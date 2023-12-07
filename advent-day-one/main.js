@@ -2,7 +2,7 @@ const fs = require('fs');
 
 let sum = 0;
 
-const filePath = './input.txt';
+const filePath = 'advent-day-one/input.txt';
 
 // read input.txt file 
 fs.readFile(filePath, 'utf8', (err, data) => {
